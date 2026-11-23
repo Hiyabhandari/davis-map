@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6095e8c674e59a65fd1a73ec538a510e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6095e8c674e59a65fd1a73ec538a510e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6095e8c674e59a65fd1a73ec538a510e = L.map(
+                "map_6095e8c674e59a65fd1a73ec538a510e",
+                {
+                    center: [38.5434, -121.7413],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 16,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_23bf794d92cb15f6fa898a7983d19948 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Tiles \u0026copy; Esri",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_23bf794d92cb15f6fa898a7983d19948.addTo(map_6095e8c674e59a65fd1a73ec538a510e);
+        
+    
+            var marker_224ba47ba226156bfe22426f7ddcfe40 = L.marker(
+                [38.5434, -121.7413],
+                {
+}
+            ).addTo(map_6095e8c674e59a65fd1a73ec538a510e);
+        
+    
+        var popup_eeba59eada100828dd4650aed661c395 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_708d16e9a0c5be4183ea234199e25a88 = $(`<div id="html_708d16e9a0c5be4183ea234199e25a88" style="width: 100.0%; height: 100.0%;">Philz Coffee</div>`)[0];
+                popup_eeba59eada100828dd4650aed661c395.setContent(html_708d16e9a0c5be4183ea234199e25a88);
+            
+        
+
+        marker_224ba47ba226156bfe22426f7ddcfe40.bindPopup(popup_eeba59eada100828dd4650aed661c395)
+        ;
+
+        
+    
+    
+            marker_224ba47ba226156bfe22426f7ddcfe40.bindTooltip(
+                `<div>
+                     Philz Coffee
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_26ac6828faa5a64f14940b2598727038 = L.marker(
+                [38.5428, -121.7418],
+                {
+}
+            ).addTo(map_6095e8c674e59a65fd1a73ec538a510e);
+        
+    
+        var popup_622805701b0c636d5865a5939915c0d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb7831c5fbf3f238ee6be32ef927b4ac = $(`<div id="html_cb7831c5fbf3f238ee6be32ef927b4ac" style="width: 100.0%; height: 100.0%;">Davis Noodle City</div>`)[0];
+                popup_622805701b0c636d5865a5939915c0d0.setContent(html_cb7831c5fbf3f238ee6be32ef927b4ac);
+            
+        
+
+        marker_26ac6828faa5a64f14940b2598727038.bindPopup(popup_622805701b0c636d5865a5939915c0d0)
+        ;
+
+        
+    
+    
+            marker_26ac6828faa5a64f14940b2598727038.bindTooltip(
+                `<div>
+                     Davis Noodle City
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5de76b69c62a946f731a3c6acfc388a6 = L.marker(
+                [38.5421, -121.7414],
+                {
+}
+            ).addTo(map_6095e8c674e59a65fd1a73ec538a510e);
+        
+    
+        var popup_d04ee2da96b1db92eea65f6d7d3b31b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc25f4a1897d4078d26c404966122465 = $(`<div id="html_fc25f4a1897d4078d26c404966122465" style="width: 100.0%; height: 100.0%;">Mikuni</div>`)[0];
+                popup_d04ee2da96b1db92eea65f6d7d3b31b9.setContent(html_fc25f4a1897d4078d26c404966122465);
+            
+        
+
+        marker_5de76b69c62a946f731a3c6acfc388a6.bindPopup(popup_d04ee2da96b1db92eea65f6d7d3b31b9)
+        ;
+
+        
+    
+    
+            marker_5de76b69c62a946f731a3c6acfc388a6.bindTooltip(
+                `<div>
+                     Mikuni
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
